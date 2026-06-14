@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ابوالفضل مرادیان</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+
+<div class="slider">
+
+<img class="slide active" src="./images/moradiyan.jpg">
+<img class="slide" src="./images/moradiyan.jpg">
+<img class="slide" src="./images/moradiyan.jpg">
+
+</div>
+
+<h1>🎤 ابوالفضل مرادیان</h1>
+
+<p>خواننده محلی</p>
+
+<div class="social">
+
+<a href="https://wa.me/989306266557">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+
+</header>
+
+<section class="about">
+
+<h2>درباره خواننده</h2>
+
+<p>
+به وبسایت رسمی ابوالفضل مرادیان خوش آمدید.
+جدیدترین آثار را بشنوید و دانلود کنید.
+</p>
+
+</section>
+
+<section class="searchBox">
+
+<input
+type="text"
+id="search"
+placeholder="جستجوی آهنگ..."
+>
+
+</section>
+
+<section id="songs">
+
+<div class="song">
+
+<h3>آهنگ نمیخوام</h3>
+
+<audio controls>
+<source src="./music/moradiyan.nemikham.mp3">
+</audio>
+
+<button onclick="downloadSong(this,'music/song1.mp3')">
+دانلود
+</button>
+
+<p>
+تعداد دانلود:
+<span>0</span>
+</p>
+
+</div>
+
+<div class="song">
+
+<h3>آهنگ شیرین شیرین</h3>
+
+<audio controls>
+<source src="./music/hsirin.moradiyan(1).mp3">
+</audio>
+
+<button onclick="downloadSong(this,'music/song2.mp3')">
+دانلود
+</button>
+
+<p>
+تعداد دانلود:
+<span>0</span>
+</p>
+
+</div>
+
+</section>
+
+<script src="../js/app.js"></script>
+
+</body>
+</html>
